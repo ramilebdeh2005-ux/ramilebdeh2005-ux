@@ -12,8 +12,9 @@
       .lbl{fill:#F1F5F9;font-weight:700}
       .sub{fill:#64748B;font-size:13px}
       .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      .glow{opacity:0;animation:gl8 8s linear infinite}@keyframes gl8{0%{opacity:0}3%{opacity:1}14%{opacity:0}100%{opacity:0}}
       @keyframes f{to{stroke-dashoffset:-48}}
-      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+      @media (prefers-reduced-motion:reduce){.flow,.glow{animation:none}.glow{opacity:0}}
     </style>
   </defs>
   <g clip-path="url(#c)">
@@ -33,6 +34,12 @@
   <text class="sans" x="48" y="130" font-size="40" font-weight="800" letter-spacing="1" fill="#F8FAFC">Bellabeat Fitness Data Analysis</text>
   <text class="sans" x="48" y="168" font-size="18" fill="#94A3B8">Wearable activity &amp; sleep data → behavioral patterns → data-driven marketing recommendations.</text>
 
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.78;0.80;1" dur="8s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#93C5FD" fill-opacity=".18"/><circle r="4" fill="#93C5FD"/>
+    <animateMotion path="M155 242 H1045" keyPoints="0;1;1" keyTimes="0;0.80;1" calcMode="linear" dur="8s" begin="0s" repeatCount="indefinite"/>
+  </g>
+
   <g class="sans">
     <rect x="73" y="204" width="164" height="76" rx="12" fill="#0C1426" stroke="#1E3A8A"/>
     <text class="lbl" x="91" y="236" font-size="16">RAW DATA</text><text class="sub" x="91" y="258">Fitbit · Kaggle</text>
@@ -50,6 +57,13 @@
   <g stroke="#60A5FA" stroke-width="1.5" fill="none" stroke-opacity=".8" marker-end="url(#ar)">
     <path d="M238 242 H248"/><path d="M416 242 H426"/><path d="M594 242 H604"/><path d="M772 242 H782"/><path d="M950 242 H960"/>
   </g>
+
+  <rect class="glow" style="animation-delay:-0.20s" x="73" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:1.08s" x="251" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:2.36s" x="429" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:3.64s" x="607" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:4.92s" x="785" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:6.20s" x="963" y="204" width="164" height="76" rx="12" fill="none" stroke="#60A5FA" stroke-width="2.2"/>
 
   <line x1="48" y1="312" x2="1152" y2="312" stroke="#1E293B"/>
   <text class="mono" x="48" y="348" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>

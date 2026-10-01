@@ -24,7 +24,7 @@ Amman, Jordan
 <tr>
 <td width="50%" valign="top">
 
-**`01` &nbsp;Agentic AI**
+<img src="assets/build-agentic.svg" width="100%" alt="01 · Agentic AI">
 
 Agents with defined responsibilities, coordinated by an explicit orchestration layer instead of left to improvise.
 
@@ -33,7 +33,7 @@ Agents with defined responsibilities, coordinated by an explicit orchestration l
 </td>
 <td width="50%" valign="top">
 
-**`02` &nbsp;Data Intelligence**
+<img src="assets/build-data.svg" width="100%" alt="02 · Data Intelligence">
 
 Systems that go past *what* changed in the data and investigate *why* — with the evidence attached.
 
@@ -44,7 +44,7 @@ Systems that go past *what* changed in the data and investigate *why* — with t
 <tr>
 <td width="50%" valign="top">
 
-**`03` &nbsp;Decision Intelligence**
+<img src="assets/build-decision.svg" width="100%" alt="03 · Decision Intelligence">
 
 Decisions examined from several specialized angles, checked, and escalated to people when the stakes require it.
 
@@ -53,7 +53,7 @@ Decisions examined from several specialized angles, checked, and escalated to pe
 </td>
 <td width="50%" valign="top">
 
-**`04` &nbsp;AI Products**
+<img src="assets/build-products.svg" width="100%" alt="04 · AI Products">
 
 End-to-end applications that put AI inside a real workflow — with the backend, data model, and controls around it.
 
@@ -275,3 +275,7 @@ Agentic AI · Multi-Agent Systems · LLM Applications · RAG · AI Data Intellig
 </p>
 
 <sub>Open to conversations about AI engineering, agentic systems, and data intelligence.</sub>
+
+<br>
+
+<img src="assets/footer.svg" width="100%" alt="From data to decisions — building intelligent systems. Amman, Jordan.">

@@ -19,8 +19,9 @@
       .sub{fill:#64748B;font-size:13px}
       .wire{stroke:#A78BFA;stroke-width:1.6;fill:none;stroke-opacity:.75}
       .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      .glow{opacity:0;animation:gl 10s linear infinite}@keyframes gl{0%{opacity:0}2%{opacity:1}9%{opacity:0}100%{opacity:0}}
       @keyframes f{to{stroke-dashoffset:-48}}
-      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+      @media (prefers-reduced-motion:reduce){.flow,.glow{animation:none}.glow{opacity:0}}
     </style>
   </defs>
   <g clip-path="url(#c)">
@@ -41,6 +42,37 @@
   <text class="sans" x="48" y="140" font-size="60" font-weight="800" letter-spacing="3" fill="#F8FAFC">APEX</text>
   <text class="sans" x="48" y="184" font-size="26" font-weight="500" fill="#CBD5E1">Autonomous Process &amp; Enterprise X-Framework</text>
   <text class="sans" x="48" y="222" font-size="18" fill="#94A3B8">Specialized AI executives reason about one decision — verified, governed, and auditable end to end.</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.26;0.28;1" dur="10s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M600 300 V426 H340 V470" keyPoints="0;1;1" keyTimes="0;0.28;1" calcMode="linear" dur="10s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.26;0.28;1" dur="10s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M600 300 V426 H762 V470" keyPoints="0;1;1" keyTimes="0;0.28;1" calcMode="linear" dur="10s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.26;0.28;1" dur="10s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M600 300 V426 H1022 V470" keyPoints="0;1;1" keyTimes="0;0.28;1" calcMode="linear" dur="10s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44;0.46;0.83;0.85;1" dur="10s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M340 610 V650 H198 V716 H1002" keyPoints="0;0;1;1" keyTimes="0;0.45;0.85;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44;0.46;0.83;0.85;1" dur="10s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M762 610 V650 H198 V716 H1002" keyPoints="0;0;1;1" keyTimes="0;0.45;0.85;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44;0.46;0.83;0.85;1" dur="10s" repeatCount="indefinite"/>
+    <circle r="12" fill="#C4B5FD" fill-opacity=".18"/><circle r="4" fill="#C4B5FD"/>
+    <animateMotion path="M1022 610 V650 H198 V716 H1002" keyPoints="0;0;1;1" keyTimes="0;0.45;0.85;1" calcMode="linear" dur="10s" repeatCount="indefinite"/>
+  </g>
 
   <rect x="440" y="258" width="320" height="42" rx="21" fill="#0F172A" stroke="#475569"/>
   <text class="mono" x="600" y="285" text-anchor="middle" font-size="14" letter-spacing="3" fill="#E2E8F0">DECISION REQUEST</text>
@@ -91,6 +123,20 @@
   <g class="wire flow" marker-end="url(#ar)">
     <path d="M323 716 H339"/><path d="M591 716 H607"/><path d="M859 716 H875"/>
   </g>
+
+  <rect class="glow" style="animation-delay:2.2s" x="380" y="328" width="440" height="74" rx="12" fill="none" stroke="#C4B5FD" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:2.90s" x="80" y="494" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.02s" x="258" y="494" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.14s" x="436" y="494" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.26s" x="80" y="558" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.38s" x="258" y="558" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.50s" x="436" y="558" width="164" height="56" rx="10" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:2.85s" x="640" y="450" width="245" height="176" rx="14" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:3.10s" x="905" y="450" width="235" height="176" rx="14" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:4.90s" x="75" y="676" width="246" height="80" rx="12" fill="none" stroke="#C4B5FD" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:5.92s" x="343" y="676" width="246" height="80" rx="12" fill="none" stroke="#C4B5FD" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:6.94s" x="611" y="676" width="246" height="80" rx="12" fill="none" stroke="#C4B5FD" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:7.96s" x="879" y="676" width="246" height="80" rx="12" fill="none" stroke="#C4B5FD" stroke-width="2.4"/>
 
   <line x1="48" y1="784" x2="1152" y2="784" stroke="#1E293B"/>
   <text class="mono" x="48" y="815" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>

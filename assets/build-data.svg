@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60" width="400" height="60" role="img" aria-label="02 Data Intelligence">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#60A5FA" stop-opacity=".16"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></linearGradient>
+  <style>.pul{animation:p 2.8s ease-in-out infinite}@keyframes p{0%,100%{opacity:1}50%{opacity:.35}}@media (prefers-reduced-motion:reduce){.pul{animation:none}}</style></defs>
+  <rect x=".5" y=".5" width="399" height="59" rx="12" fill="#080D1A" stroke="#1E3A8A"/>
+  <rect x=".5" y=".5" width="399" height="59" rx="12" fill="url(#g)"/>
+  <g transform="translate(12 10)" fill="#60A5FA" stroke="#60A5FA"><rect x="-2" y="-2" width="44" height="44" rx="10" fill="#0C1A33" stroke="#1E3A8A" stroke-width="1"/><g stroke="#60A5FA"><g><rect x="8" y="22" width="5" height="12" rx="1.5" opacity=".55"/><rect x="16" y="14" width="5" height="20" rx="1.5" opacity=".75"/><rect class="pul" x="24" y="8" width="5" height="26" rx="1.5"/></g><path d="M6 34 H34" fill="none" stroke-width="2" stroke-opacity=".4"/></g></g>
+  <text x="70" y="37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#60A5FA">02</text>
+  <text x="100" y="37" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="1.5" fill="#F1F5F9">DATA INTELLIGENCE</text>
+</svg>

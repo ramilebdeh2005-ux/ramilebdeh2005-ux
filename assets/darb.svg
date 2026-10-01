@@ -16,8 +16,9 @@
       .sub{fill:#64748B;font-size:13px}
       .wire{stroke:#22D3EE;stroke-width:1.6;fill:none;stroke-opacity:.8}
       .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      .glow{opacity:0;animation:gl 10s linear infinite}@keyframes gl{0%{opacity:0}2%{opacity:1}9%{opacity:0}100%{opacity:0}}
       @keyframes f{to{stroke-dashoffset:-48}}
-      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+      @media (prefers-reduced-motion:reduce){.flow,.glow{animation:none}.glow{opacity:0}}
     </style>
   </defs>
   <g clip-path="url(#c)">
@@ -38,6 +39,12 @@
   <text class="sans" x="48" y="140" font-size="60" font-weight="800" letter-spacing="3" fill="#F8FAFC">DARB</text>
   <text class="sans" x="48" y="184" font-size="26" font-weight="500" fill="#CBD5E1">Autonomous Business Intelligence Platform</text>
   <text class="sans" x="48" y="222" font-size="18" fill="#94A3B8">Investigates business questions inside the data and returns evidence-grounded analytical answers.</text>
+
+    <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.83;0.85;1" dur="10s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#67E8F9" fill-opacity=".18"/><circle r="4" fill="#67E8F9"/>
+    <animateMotion path="M198 304 H1002 V378 H198 V452 H1002" keyPoints="0;1;1" keyTimes="0;0.85;1" calcMode="linear" dur="10s" begin="0s" repeatCount="indefinite"/>
+  </g>
 
   <!-- row 1 -->
   <g class="sans">
@@ -69,6 +76,15 @@
   <g class="wire" marker-end="url(#ar)">
     <path d="M323 452 H339"/><path d="M591 452 H607"/><path d="M859 452 H875"/>
   </g>
+
+  <rect class="glow" style="animation-delay:-0.25s" x="75" y="262" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:0.64s" x="343" y="262" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:1.53s" x="611" y="262" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:2.42s" x="879" y="262" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:5.58s" x="75" y="410" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:6.47s" x="343" y="410" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:7.36s" x="611" y="410" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:8.25s" x="879" y="410" width="246" height="84" rx="12" fill="none" stroke="#22D3EE" stroke-width="2.4"/>
 
   <line x1="48" y1="526" x2="1152" y2="526" stroke="#1E293B"/>
   <text class="mono" x="48" y="560" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>
