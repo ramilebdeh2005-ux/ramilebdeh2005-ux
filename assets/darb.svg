@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-labelledby="t d">
+  <title id="t">DARB — Autonomous Business Intelligence Platform</title>
+  <desc id="d">Flagship AI and data intelligence project, private case study. Workflow: business question, context and data, planning, SQL and analysis, hypotheses, validation, verification, business answer.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <radialGradient id="glow" cx="0%" cy="0%" r="75%"><stop offset="0" stop-color="#22D3EE" stop-opacity=".13"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#0E7490" stop-opacity=".35"/><stop offset="1" stop-color="#1D4ED8" stop-opacity=".35"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#22D3EE"/></marker>
+    <clipPath id="c"><rect width="1200" height="590" rx="20"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
+      .box{fill:#0D1426;stroke:#1E3A5F;stroke-width:1.2}
+      .idx{fill:#22D3EE;font-size:12px;letter-spacing:2px}
+      .lbl{fill:#F1F5F9;font-weight:700}
+      .sub{fill:#64748B;font-size:13px}
+      .wire{stroke:#22D3EE;stroke-width:1.6;fill:none;stroke-opacity:.8}
+      .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      @keyframes f{to{stroke-dashoffset:-48}}
+      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="590" fill="#080D1A"/>
+    <rect width="1200" height="590" fill="url(#glow)"/>
+    <rect width="1200" height="4" fill="url(#bar)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="589" rx="20" fill="none" stroke="#1E293B"/>
+
+  <g class="mono" font-size="13" letter-spacing="2.5">
+    <rect x="48" y="38" width="372" height="32" rx="16" fill="#0B2530" stroke="#155E75"/>
+    <text x="234" y="59" text-anchor="middle" fill="#67E8F9">FLAGSHIP · AI / DATA INTELLIGENCE</text>
+    <rect x="904" y="38" width="248" height="32" rx="16" fill="#0F172A" stroke="#334155"/>
+    <g transform="translate(926 46)" fill="none" stroke="#94A3B8" stroke-width="1.6"><rect x="0" y="6" width="12" height="9" rx="2"/><path d="M3 6 V3.5 a3 3 0 0 1 6 0 V6"/></g>
+    <text x="1046" y="59" text-anchor="middle" fill="#94A3B8">PRIVATE · CASE STUDY</text>
+  </g>
+
+  <text class="sans" x="48" y="140" font-size="60" font-weight="800" letter-spacing="3" fill="#F8FAFC">DARB</text>
+  <text class="sans" x="48" y="184" font-size="26" font-weight="500" fill="#CBD5E1">Autonomous Business Intelligence Platform</text>
+  <text class="sans" x="48" y="222" font-size="18" fill="#94A3B8">Investigates business questions inside the data and returns evidence-grounded analytical answers.</text>
+
+  <!-- row 1 -->
+  <g class="sans">
+    <rect class="box" x="75" y="262" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="95" y="288">01</text><text class="lbl" x="95" y="314" font-size="18">BUSINESS QUESTION</text><text class="sub" x="95" y="334">natural language · AR / EN</text>
+    <rect class="box" x="343" y="262" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="363" y="288">02</text><text class="lbl" x="363" y="314" font-size="18">CONTEXT / DATA</text><text class="sub" x="363" y="334">data connectors · RAG</text>
+    <rect class="box" x="611" y="262" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="631" y="288">03</text><text class="lbl" x="631" y="314" font-size="18">PLANNING</text><text class="sub" x="631" y="334">agent investigation plan</text>
+    <rect class="box" x="879" y="262" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="899" y="288">04</text><text class="lbl" x="899" y="314" font-size="18">SQL + ANALYSIS</text><text class="sub" x="899" y="334">read-only queries</text>
+  </g>
+  <g class="wire" marker-end="url(#ar)">
+    <path d="M323 304 H339"/><path d="M591 304 H607"/><path d="M859 304 H875"/>
+  </g>
+  <path class="wire flow" d="M1002 348 V378 H198 V404" marker-end="url(#ar)"/>
+
+  <!-- row 2 -->
+  <g class="sans">
+    <rect class="box" x="75" y="410" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="95" y="436">05</text><text class="lbl" x="95" y="462" font-size="18">HYPOTHESES</text><text class="sub" x="95" y="482">candidate causes</text>
+    <rect class="box" x="343" y="410" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="363" y="436">06</text><text class="lbl" x="363" y="462" font-size="18">VALIDATION</text><text class="sub" x="363" y="482">statistical checks</text>
+    <rect class="box" x="611" y="410" width="246" height="84" rx="12"/>
+    <text class="mono idx" x="631" y="436">07</text><text class="lbl" x="631" y="462" font-size="18">VERIFICATION</text><text class="sub" x="631" y="482">unsupported figures flagged</text>
+    <rect x="879" y="410" width="246" height="84" rx="12" fill="url(#hl)" stroke="#22D3EE" stroke-width="1.6"/>
+    <text class="mono idx" x="899" y="436">08</text><text class="lbl" x="899" y="462" font-size="18">BUSINESS ANSWER</text><text class="sub" x="899" y="482" style="fill:#7DD3FC">with its evidence</text>
+  </g>
+  <g class="wire" marker-end="url(#ar)">
+    <path d="M323 452 H339"/><path d="M591 452 H607"/><path d="M859 452 H875"/>
+  </g>
+
+  <line x1="48" y1="526" x2="1152" y2="526" stroke="#1E293B"/>
+  <text class="mono" x="48" y="560" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>
+  <text class="mono" x="118" y="560" font-size="15" fill="#94A3B8">Python · FastAPI · SQL · DuckDB · PostgreSQL · RAG · Claude / OpenAI · Next.js · TypeScript</text>
+</svg>

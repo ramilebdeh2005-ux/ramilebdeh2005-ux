@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">From data to intelligence to autonomy</title>
+  <desc id="d">Bellabeat: data analysis. DARB: data intelligence and AI agents. APEX: decision intelligence and multi-agent systems. SHIFAA: applied AI product.</desc>
+  <defs>
+    <linearGradient id="line" x1="150" x2="1050" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/><stop offset=".35" stop-color="#22D3EE"/><stop offset=".68" stop-color="#8B5CF6"/><stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" x2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+    <clipPath id="c"><rect width="1200" height="300" rx="20"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
+      .lbl{fill:#F1F5F9;font-weight:700}
+      .sub{fill:#64748B;font-size:13px}
+      .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      @keyframes f{to{stroke-dashoffset:-48}}
+      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)"><rect width="1200" height="300" fill="#080D1A"/></g>
+  <rect x=".5" y=".5" width="1199" height="299" rx="20" fill="none" stroke="#1E293B"/>
+
+  <text class="mono" x="600" y="56" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="4" fill="url(#head)">FROM DATA  →  TO INTELLIGENCE  →  TO AUTONOMY</text>
+
+  <line x1="150" y1="150" x2="1050" y2="150" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+  <line class="flow" x1="150" y1="150" x2="1050" y2="150" stroke="url(#line)" stroke-width="2.5"/>
+
+  <g class="mono" font-size="12" letter-spacing="2.5" text-anchor="middle">
+    <text x="150" y="118" fill="#60A5FA">01 · ANALYZE</text>
+    <text x="450" y="118" fill="#22D3EE">02 · INVESTIGATE</text>
+    <text x="750" y="118" fill="#A78BFA">03 · DECIDE</text>
+    <text x="1050" y="118" fill="#2DD4BF">04 · ACT</text>
+  </g>
+  <circle cx="150" cy="150" r="17" fill="#60A5FA" fill-opacity=".15"/><circle cx="150" cy="150" r="8" fill="#60A5FA"/>
+  <circle cx="450" cy="150" r="17" fill="#22D3EE" fill-opacity=".15"/><circle cx="450" cy="150" r="8" fill="#22D3EE"/>
+  <circle cx="750" cy="150" r="17" fill="#8B5CF6" fill-opacity=".15"/><circle cx="750" cy="150" r="8" fill="#8B5CF6"/>
+  <circle cx="1050" cy="150" r="17" fill="#14B8A6" fill-opacity=".15"/><circle cx="1050" cy="150" r="8" fill="#14B8A6"/>
+
+  <g class="sans" text-anchor="middle">
+    <text x="150" y="204" font-size="22" font-weight="800" fill="#F1F5F9">Bellabeat</text>
+    <text x="150" y="230" font-size="14" fill="#94A3B8">data analysis &amp; BI</text>
+    <text x="450" y="204" font-size="22" font-weight="800" fill="#F1F5F9">DARB</text>
+    <text x="450" y="230" font-size="14" fill="#94A3B8">data intelligence + AI agents</text>
+    <text x="750" y="204" font-size="22" font-weight="800" fill="#F1F5F9">APEX</text>
+    <text x="750" y="230" font-size="14" fill="#94A3B8">decision intelligence + multi-agent</text>
+    <text x="1050" y="204" font-size="22" font-weight="800" fill="#F1F5F9">SHIFAA</text>
+    <text x="1050" y="230" font-size="14" fill="#94A3B8">applied AI product</text>
+  </g>
+  <text class="mono" x="600" y="274" text-anchor="middle" font-size="12" letter-spacing="2" fill="#475569">ONE DIRECTION · BUILDING INTELLIGENT SYSTEMS</text>
+</svg>

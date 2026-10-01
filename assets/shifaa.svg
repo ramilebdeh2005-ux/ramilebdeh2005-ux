@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-labelledby="t d">
+  <title id="t">SHIFAA — AI Assistant for Clinics</title>
+  <desc id="d">Applied AI conversational agent, private case study. A patient messages on WhatsApp, the AI agent understands the request and routes it to booking through a deterministic scheduler, grounded answers from clinic documents, or handoff to staff. Consequential actions are previewed, confirmed by a person, and re-verified against live data.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <radialGradient id="glow" cx="0%" cy="100%" r="75%"><stop offset="0" stop-color="#14B8A6" stop-opacity=".12"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#0F766E" stop-opacity=".4"/><stop offset="1" stop-color="#0E7490" stop-opacity=".4"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+    <clipPath id="c"><rect width="1200" height="590" rx="20"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
+      .lbl{fill:#F1F5F9;font-weight:700}
+      .sub{fill:#64748B;font-size:13px}
+      .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      @keyframes f{to{stroke-dashoffset:-48}}
+      @media (prefers-reduced-motion:reduce){.flow{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="590" fill="#080D1A"/>
+    <rect width="1200" height="590" fill="url(#glow)"/>
+    <rect width="1200" height="4" fill="url(#bar)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="589" rx="20" fill="none" stroke="#1E293B"/>
+
+  <g class="mono" font-size="13" letter-spacing="2.5">
+    <rect x="48" y="38" width="410" height="32" rx="16" fill="#08261F" stroke="#115E59"/>
+    <text x="253" y="59" text-anchor="middle" fill="#5EEAD4">APPLIED AI · CONVERSATIONAL AGENT</text>
+    <rect x="904" y="38" width="248" height="32" rx="16" fill="#0F172A" stroke="#334155"/>
+    <g transform="translate(926 46)" fill="none" stroke="#94A3B8" stroke-width="1.6"><rect x="0" y="6" width="12" height="9" rx="2"/><path d="M3 6 V3.5 a3 3 0 0 1 6 0 V6"/></g>
+    <text x="1046" y="59" text-anchor="middle" fill="#94A3B8">PRIVATE · CASE STUDY</text>
+  </g>
+
+  <text class="sans" x="48" y="140" font-size="60" font-weight="800" letter-spacing="3" fill="#F8FAFC">SHIFAA</text>
+  <text class="sans" x="48" y="184" font-size="26" font-weight="500" fill="#CBD5E1">AI Assistant for Clinics</text>
+  <text class="sans" x="48" y="222" font-size="18" fill="#94A3B8">A patient-facing WhatsApp agent on top of deterministic clinic operations — people stay in control.</text>
+
+  <g class="sans">
+    <rect x="48" y="262" width="250" height="170" rx="14" fill="#0B1522" stroke="#134E4A"/>
+    <text class="mono" x="70" y="292" font-size="12" letter-spacing="2.5" fill="#2DD4BF">CHANNEL</text>
+    <text class="lbl" x="70" y="346" font-size="22">PATIENT</text>
+    <text class="sub" x="70" y="372">natural-language message</text>
+    <text class="sub" x="70" y="392">on WhatsApp · AR / EN</text>
+
+    <rect x="360" y="262" width="300" height="170" rx="14" fill="url(#hl)" stroke="#2DD4BF" stroke-width="1.4"/>
+    <text class="mono" x="382" y="292" font-size="12" letter-spacing="2.5" fill="#5EEAD4">AGENT</text>
+    <text class="lbl" x="382" y="346" font-size="22">AI AGENT</text>
+    <text class="sub" x="382" y="372" style="fill:#99F6E4">understands the request,</text>
+    <text class="sub" x="382" y="392" style="fill:#99F6E4">chooses which tool to call</text>
+
+    <rect x="722" y="262" width="430" height="50" rx="10" fill="#0B1522" stroke="#134E4A"/>
+    <text class="lbl" x="742" y="293" font-size="16">BOOKING</text><text class="sub" x="850" y="293">real availability · deterministic scheduler</text>
+    <rect x="722" y="322" width="430" height="50" rx="10" fill="#0B1522" stroke="#134E4A"/>
+    <text class="lbl" x="742" y="353" font-size="16">ANSWERS</text><text class="sub" x="850" y="353">grounded in clinic documents (RAG)</text>
+    <rect x="722" y="382" width="430" height="50" rx="10" fill="#0B1522" stroke="#134E4A"/>
+    <text class="lbl" x="742" y="413" font-size="16">HANDOFF</text><text class="sub" x="850" y="413">clinical or uncertain → clinic staff</text>
+  </g>
+  <g stroke="#2DD4BF" stroke-width="1.6" fill="none" stroke-opacity=".8" marker-end="url(#ar)">
+    <path class="flow" d="M300 347 H356"/>
+    <path d="M662 347 H690 V287 H718"/><path d="M662 347 H718"/><path d="M690 347 V407 H718"/>
+  </g>
+
+  <rect x="48" y="456" width="1104" height="46" rx="10" fill="#0A1A1A" stroke="#134E4A" stroke-dasharray="4 4"/>
+  <text class="mono" x="70" y="485" font-size="12" letter-spacing="2.5" fill="#2DD4BF">GUARDRAIL</text>
+  <text class="sans" x="180" y="485" font-size="15" fill="#CBD5E1">Consequential actions: preview → human confirmation → re-verified against live data. No medical advice.</text>
+
+  <line x1="48" y1="526" x2="1152" y2="526" stroke="#1E293B"/>
+  <text class="mono" x="48" y="560" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>
+  <text class="mono" x="118" y="560" font-size="15" fill="#94A3B8">Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js</text>
+</svg>
