@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-labelledby="t d">
+  <title id="t">EnterpriseFlow AI — Connected Business Operations</title>
+  <desc id="d">Governed business-operations platform, private case study. A team works in one Arabic-first web app; a permissioned FastAPI business layer enforces rules, transactions and audit on the data in PostgreSQL, four governed AI agents that read or propose while people approve, and five n8n workflows that call the same API.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#F4B942"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <radialGradient id="glow" cx="0%" cy="100%" r="75%"><stop offset="0" stop-color="#F4B942" stop-opacity=".10"/><stop offset="1" stop-color="#F4B942" stop-opacity="0"/></radialGradient>
+    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#14532D" stop-opacity=".55"/><stop offset="1" stop-color="#3F3A12" stop-opacity=".55"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#F4B942"/></marker>
+    <clipPath id="c"><rect width="1200" height="590" rx="20"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
+      .lbl{fill:#F1F5F9;font-weight:700}
+      .sub{fill:#64748B;font-size:13px}
+      .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
+      .glow{opacity:0;animation:gl8 8s linear infinite}@keyframes gl8{0%{opacity:0}3%{opacity:1}14%{opacity:0}100%{opacity:0}}
+      @keyframes f{to{stroke-dashoffset:-48}}
+      @media (prefers-reduced-motion:reduce){.flow,.glow{animation:none}.glow{opacity:0}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="590" fill="#07130F"/>
+    <rect width="1200" height="590" fill="url(#glow)"/>
+    <rect width="1200" height="4" fill="url(#bar)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="589" rx="20" fill="none" stroke="#1C3A30"/>
+
+  <g class="mono" font-size="13" letter-spacing="2.5">
+    <rect x="48" y="38" width="410" height="32" rx="16" fill="#2A2108" stroke="#7C5A12"/>
+    <text x="253" y="59" text-anchor="middle" fill="#FCD679">BUSINESS OPERATIONS · GOVERNED AI</text>
+    <rect x="904" y="38" width="248" height="32" rx="16" fill="#0B1A14" stroke="#2C5A47"/>
+    <g transform="translate(926 46)" fill="none" stroke="#94A3B8" stroke-width="1.6"><rect x="0" y="6" width="12" height="9" rx="2"/><path d="M3 6 V3.5 a3 3 0 0 1 6 0 V6"/></g>
+    <text x="1046" y="59" text-anchor="middle" fill="#94A3B8">PRIVATE · CASE STUDY</text>
+  </g>
+
+  <text class="sans" x="48" y="140" font-size="60" font-weight="800" letter-spacing="3" fill="#F8FAFC">ENTERPRISEFLOW AI</text>
+  <text class="sans" x="48" y="184" font-size="26" font-weight="500" fill="#CBD5E1">Connected Business Operations</text>
+  <text class="sans" x="48" y="222" font-size="18" fill="#94A3B8">CRM, supply chain, finance and approvals in one workspace — AI proposes, people approve.</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.28;0.30;1" dur="8s" begin="0s" repeatCount="indefinite"/>
+    <circle r="12" fill="#FCD679" fill-opacity=".18"/><circle r="4" fill="#FCD679"/>
+    <animateMotion path="M173 347 H510" keyPoints="0;1;1" keyTimes="0;0.30;1" calcMode="linear" dur="8s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.36;0.6;0.62;1" dur="8s" repeatCount="indefinite"/>
+    <circle r="12" fill="#FCD679" fill-opacity=".18"/><circle r="4" fill="#FCD679"/>
+    <animateMotion path="M510 347 H690 V287 H760" keyPoints="0;0;1;1" keyTimes="0;0.35;0.6;1" calcMode="linear" dur="8s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.36;0.6;0.62;1" dur="8s" repeatCount="indefinite"/>
+    <circle r="12" fill="#FCD679" fill-opacity=".18"/><circle r="4" fill="#FCD679"/>
+    <animateMotion path="M510 347 H690 V347 H760" keyPoints="0;0;1;1" keyTimes="0;0.35;0.6;1" calcMode="linear" dur="8s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.36;0.6;0.62;1" dur="8s" repeatCount="indefinite"/>
+    <circle r="12" fill="#FCD679" fill-opacity=".18"/><circle r="4" fill="#FCD679"/>
+    <animateMotion path="M510 347 H690 V407 H760" keyPoints="0;0;1;1" keyTimes="0;0.35;0.6;1" calcMode="linear" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <g class="sans">
+    <rect x="48" y="262" width="250" height="170" rx="14" fill="#0B1A14" stroke="#1F4A3B"/>
+    <text class="mono" x="70" y="292" font-size="12" letter-spacing="2.5" fill="#F4B942">WORKSPACE</text>
+    <text class="lbl" x="70" y="346" font-size="22">TEAM</text>
+    <text class="sub" x="70" y="372">sales · operations · finance</text>
+    <text class="sub" x="70" y="392">web app · AR / EN · light / dark</text>
+
+    <rect x="360" y="262" width="300" height="170" rx="14" fill="url(#hl)" stroke="#F4B942" stroke-width="1.4"/>
+    <text class="mono" x="382" y="292" font-size="12" letter-spacing="2.5" fill="#FCD679">API</text>
+    <text class="lbl" x="382" y="346" font-size="22">BUSINESS API</text>
+    <text class="sub" x="382" y="372" style="fill:#F3E3B3">permissions, business rules,</text>
+    <text class="sub" x="382" y="392" style="fill:#F3E3B3">transactions and audit trail</text>
+
+    <rect x="722" y="262" width="430" height="50" rx="10" fill="#0B1A14" stroke="#1F4A3B"/>
+    <text class="lbl" x="742" y="293" font-size="16">DATA</text><text class="sub" x="872" y="293">PostgreSQL · double-entry ledger · audit</text>
+    <rect x="722" y="322" width="430" height="50" rx="10" fill="#0B1A14" stroke="#1F4A3B"/>
+    <text class="lbl" x="742" y="353" font-size="16">AI AGENTS</text><text class="sub" x="872" y="353">4 agents · read or propose, people approve</text>
+    <rect x="722" y="382" width="430" height="50" rx="10" fill="#0B1A14" stroke="#1F4A3B"/>
+    <text class="lbl" x="742" y="413" font-size="16">AUTOMATION</text><text class="sub" x="872" y="413">5 n8n workflows · same permissioned API</text>
+  </g>
+  <g stroke="#F4B942" stroke-width="1.6" fill="none" stroke-opacity=".8" marker-end="url(#ar)">
+    <path class="flow" d="M300 347 H356"/>
+    <path d="M662 347 H690 V287 H718"/><path d="M662 347 H718"/><path d="M690 347 V407 H718"/>
+  </g>
+
+  <rect class="glow" style="animation-delay:2.1s" x="360" y="262" width="300" height="170" rx="14" fill="none" stroke="#FCD679" stroke-width="2.4"/>
+  <rect class="glow" style="animation-delay:4.60s" x="722" y="262" width="430" height="50" rx="10" fill="none" stroke="#FCD679" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:4.68s" x="722" y="322" width="430" height="50" rx="10" fill="none" stroke="#FCD679" stroke-width="2"/>
+  <rect class="glow" style="animation-delay:4.76s" x="722" y="382" width="430" height="50" rx="10" fill="none" stroke="#FCD679" stroke-width="2"/>
+
+  <rect x="48" y="456" width="1104" height="46" rx="10" fill="#14130A" stroke="#7C5A12" stroke-dasharray="4 4"/>
+  <text class="mono" x="70" y="485" font-size="12" letter-spacing="2.5" fill="#F4B942">GUARDRAIL</text>
+  <text class="sans" x="180" y="485" font-size="15" fill="#CBD5E1">AI proposes, people approve. Automations reach data only through the API — never the database.</text>
+
+  <line x1="48" y1="526" x2="1152" y2="526" stroke="#1C3A30"/>
+  <text class="mono" x="48" y="560" font-size="12" letter-spacing="2.5" fill="#475569">STACK</text>
+  <text class="mono" x="118" y="560" font-size="15" fill="#94A3B8">Next.js · TypeScript · FastAPI · Python · PostgreSQL · n8n · Docker</text>
+</svg>

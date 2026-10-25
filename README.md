@@ -194,6 +194,62 @@ Designed and built end-to-end: a WhatsApp agent that books against real availabi
 
 <br>
 
+<img src="assets/enterpriseflow.svg" width="100%" alt="EnterpriseFlow AI — Connected Business Operations. Governed business-operations platform, private case study. A team works in one Arabic-first web app; a permissioned FastAPI business layer enforces rules, transactions and audit on PostgreSQL data, four governed AI agents that read or propose while people approve, and five n8n workflows that call the same API.">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**The problem**<br>
+Small teams run sales, stock, purchasing and finance in separate tools — approvals get lost, numbers disagree, and "automation" often means a script with direct access to the database.
+
+</td>
+<td width="50%" valign="top">
+
+**What I built**<br>
+Designed and built end to end: a multi-tenant operations platform — CRM and sales, inventory and procurement, a double-entry ledger, approvals, people and tasks — with four governed AI agents that can only read or propose, and five n8n workflows that go through the same permissioned API as people do.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Capabilities &amp; architecture</b></summary>
+<br>
+
+| Layer | What it does |
+|---|---|
+| **Business modules** | Leads → quotes → approvals → orders · stock ledger, suppliers, purchase requests and orders · invoices, payments, expenses, P&amp;L and trial balance |
+| **Governed AI** | Four agents (Sales, Supply Chain, Finance, Executive) with narrow tools in risk tiers — read-only, reversible draft, proposal-only — behind a safety-evaluation gate; the provider is a clearly labelled mock |
+| **Automation** | Five n8n workflows — lead intake, SLA monitor, daily briefing, inventory threshold, error intake — idempotent, correlated, and calling the API, never the database |
+| **Trust** | Tenant isolation · role permissions · human approval on consequential actions · audit log · database-enforced balanced ledger |
+| **Interface** | Arabic-first (RTL) and English · light and dark · command palette · approvals inbox · Copilot |
+| **Quality** | 164 backend tests and 78 browser acceptance tests, run locally |
+
+**Stack** &nbsp; Next.js · TypeScript · FastAPI · Python · PostgreSQL · n8n · Docker
+
+</details>
+
+<details>
+<summary><b>See it running</b> — real screenshots, synthetic demo data</summary>
+<br>
+
+<img src="assets/enterpriseflow-app.png" width="100%" alt="EnterpriseFlow AI, Sales and CRM screen: quotes with draft, pending-approval and accepted states, and the module navigation.">
+
+<sub>The application: leads → quotes → approvals → orders, with the whole workspace one click away.</sub>
+
+<br><br>
+
+<img src="assets/enterpriseflow-n8n.png" width="100%" alt="The n8n editor showing a saved, inactive showcase workflow: five triggers, a shared control layer, five business lanes and reference nodes for the FastAPI business layer.">
+
+<sub>The real n8n editor with a saved, inactive showcase workflow that lays the responsibilities of the five production workflows out on one canvas.</sub>
+
+</details>
+
+<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; LOCAL PORTFOLIO MVP &nbsp;·&nbsp; Next.js · TypeScript · FastAPI · PostgreSQL · n8n</sub></p>
+
+<br>
+
 <a href="https://github.com/ramilebdeh2005-ux/Bellabelt"><img src="assets/bellabeat.svg" width="100%" alt="Bellabeat Fitness Data Analysis — data analytics / business intelligence, public repository. Raw data → cleaning → exploratory analysis → behavioral patterns → visualization → business insights."></a>
 
 Analysis of Fitbit activity and sleep data to support Bellabeat's marketing strategy: cleaning and merging the datasets, engineering an *awake-in-bed* feature, user-level behavioural analysis, and recommendations such as personalized activity reminders and behavioural segmentation.
@@ -204,7 +260,7 @@ Analysis of Fitbit activity and sleep data to support Bellabeat's marketing stra
 
 ## The thread
 
-<img src="assets/journey.svg" width="100%" alt="From data to intelligence to autonomy: Bellabeat (data analysis) → DARB (data intelligence + AI agents) → APEX (decision intelligence + multi-agent) → SHIFAA (applied AI product).">
+<img src="assets/journey.svg" width="100%" alt="From data to intelligence to autonomy: Bellabeat (data analysis) → DARB (data intelligence + AI agents) → APEX (decision intelligence + multi-agent) → SHIFAA (applied AI product) → EnterpriseFlow AI (governed business operations).">
 
 <p align="center"><sub>Different problems, one direction: turning data and AI agents into systems people can actually rely on.</sub></p>
 
@@ -228,7 +284,7 @@ Analysis of Fitbit activity and sleep data to support Bellabeat's marketing stra
 | **Backend & Data** | FastAPI · REST APIs · PostgreSQL · DuckDB |
 | **Analytics & BI** | Power BI · Tableau · Data Analysis · Data Visualization · Dashboard Development |
 | **Frontend** | Next.js · React · Tailwind CSS |
-| **Tools** | Git · GitHub · Jira · Jupyter Notebook · VS Code |
+| **Tools** | Git · GitHub · Jira · n8n · Docker · Jupyter Notebook · VS Code |
 
 <br>
 
@@ -242,6 +298,7 @@ Analysis of Fitbit activity and sleep data to support Bellabeat's marketing stra
 | **Agents around clear responsibilities** | APEX units are role-constrained — each owns one perspective on the decision. |
 | **Orchestration over improvisation** | Explicit state graphs define who runs, when, and with which inputs. |
 | **Governance is system design** | Human approval and escalation thresholds are built in, not bolted on. |
+| **Automation through the front door** | In EnterpriseFlow AI, n8n workflows call the same permissioned, audited API that people use — never the database. |
 | **Real problems first** | Start from a workflow someone actually runs, then decide where AI belongs in it. |
 
 <br>
