@@ -171,47 +171,6 @@ Taken through final hardening and verification as a completed system.
 
 <br>
 
-<img src="assets/shifaa.svg" width="100%" alt="SHIFAA — AI Assistant for Clinics. Applied AI / conversational agent, private case study. A patient messages on WhatsApp; the AI agent routes the request to booking via a deterministic scheduler, grounded answers from clinic documents (RAG), or handoff to staff. Consequential actions are previewed, confirmed by a person, and re-verified against live data.">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**The problem**<br>
-Clinic teams lose their day to routine WhatsApp messages, calendar changes, and reminders — while freed-up appointment slots sit empty.
-
-</td>
-<td width="50%" valign="top">
-
-**What I built**<br>
-Designed and built end-to-end: a WhatsApp agent that books against real availability, answers from the clinic's own documents, sends reminders, offers freed slots to a waitlist, and hands anything clinical or uncertain to staff — plus the staff dashboard and copilot.
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>Capabilities &amp; architecture</b></summary>
-<br>
-
-| Layer | What it does |
-|---|---|
-| **Conversation** | Patients message the clinic's own WhatsApp number in Arabic or English; the agent understands the request and chooses which tool to call |
-| **Booking** | Every slot is checked against the doctor's real calendar and business hours before it is offered — double bookings cannot be created through chat |
-| **Knowledge** | Hours, prices and policies are answered from the clinic's own uploaded documents (RAG on pgvector); when it does not know, it says so instead of guessing |
-| **Automation** | Reminders, follow-ups after no-shows, and a waitlist that offers freed slots in order — one live offer per patient, never double-promised |
-| **Staff copilot** | Staff run the day by chat with exactly the permissions of their role; consequential actions are previewed, wait for a person, and are re-verified against live data |
-| **Trust** | No medical advice; anything medical or uncertain goes to staff; patient messages are treated as data, never as instructions; every action is recorded |
-| **Platform** | Multi-clinic isolation · signed WhatsApp webhooks · durable outbox and worker · Arabic-first RTL dashboard · integrated with the real Claude model and the WhatsApp Cloud API |
-
-**Stack** &nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript
-
-</details>
-
-<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript</sub></p>
-
-<br>
-
 <img src="assets/enterpriseflow.svg" width="100%" alt="EnterpriseFlow AI — Connected Business Operations. Governed business-operations platform, private case study. A team works in one Arabic-first web app; a permissioned FastAPI business layer enforces rules, transactions and audit on PostgreSQL data, four governed AI agents that read or propose while people approve, and five n8n workflows that call the same API.">
 
 <table>
@@ -265,6 +224,47 @@ Designed and built end to end: a multi-tenant operations platform — CRM and sa
 </details>
 
 <p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; LOCAL PORTFOLIO MVP &nbsp;·&nbsp; Next.js · TypeScript · FastAPI · PostgreSQL · n8n</sub></p>
+
+<br>
+
+<img src="assets/shifaa.svg" width="100%" alt="SHIFAA — AI Assistant for Clinics. Applied AI / conversational agent, private case study. A patient messages on WhatsApp; the AI agent routes the request to booking via a deterministic scheduler, grounded answers from clinic documents (RAG), or handoff to staff. Consequential actions are previewed, confirmed by a person, and re-verified against live data.">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**The problem**<br>
+Clinic teams lose their day to routine WhatsApp messages, calendar changes, and reminders — while freed-up appointment slots sit empty.
+
+</td>
+<td width="50%" valign="top">
+
+**What I built**<br>
+Designed and built end-to-end: a WhatsApp agent that books against real availability, answers from the clinic's own documents, sends reminders, offers freed slots to a waitlist, and hands anything clinical or uncertain to staff — plus the staff dashboard and copilot.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Capabilities &amp; architecture</b></summary>
+<br>
+
+| Layer | What it does |
+|---|---|
+| **Conversation** | Patients message the clinic's own WhatsApp number in Arabic or English; the agent understands the request and chooses which tool to call |
+| **Booking** | Every slot is checked against the doctor's real calendar and business hours before it is offered — double bookings cannot be created through chat |
+| **Knowledge** | Hours, prices and policies are answered from the clinic's own uploaded documents (RAG on pgvector); when it does not know, it says so instead of guessing |
+| **Automation** | Reminders, follow-ups after no-shows, and a waitlist that offers freed slots in order — one live offer per patient, never double-promised |
+| **Staff copilot** | Staff run the day by chat with exactly the permissions of their role; consequential actions are previewed, wait for a person, and are re-verified against live data |
+| **Trust** | No medical advice; anything medical or uncertain goes to staff; patient messages are treated as data, never as instructions; every action is recorded |
+| **Platform** | Multi-clinic isolation · signed WhatsApp webhooks · durable outbox and worker · Arabic-first RTL dashboard · integrated with the real Claude model and the WhatsApp Cloud API |
+
+**Stack** &nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript
+
+</details>
+
+<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript</sub></p>
 
 <br>
 
