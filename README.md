@@ -190,6 +190,24 @@ Designed and built end-to-end: a WhatsApp agent that books against real availabi
 </tr>
 </table>
 
+<details>
+<summary><b>Capabilities &amp; architecture</b></summary>
+<br>
+
+| Layer | What it does |
+|---|---|
+| **Conversation** | Patients message the clinic's own WhatsApp number in Arabic or English; the agent understands the request and chooses which tool to call |
+| **Booking** | Every slot is checked against the doctor's real calendar and business hours before it is offered — double bookings cannot be created through chat |
+| **Knowledge** | Hours, prices and policies are answered from the clinic's own uploaded documents (RAG on pgvector); when it does not know, it says so instead of guessing |
+| **Automation** | Reminders, follow-ups after no-shows, and a waitlist that offers freed slots in order — one live offer per patient, never double-promised |
+| **Staff copilot** | Staff run the day by chat with exactly the permissions of their role; consequential actions are previewed, wait for a person, and are re-verified against live data |
+| **Trust** | No medical advice; anything medical or uncertain goes to staff; patient messages are treated as data, never as instructions; every action is recorded |
+| **Platform** | Multi-clinic isolation · signed WhatsApp webhooks · durable outbox and worker · Arabic-first RTL dashboard · integrated with the real Claude model and the WhatsApp Cloud API |
+
+**Stack** &nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript
+
+</details>
+
 <p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript</sub></p>
 
 <br>
@@ -224,7 +242,7 @@ Designed and built end to end: a multi-tenant operations platform — CRM and sa
 | **Automation** | Five n8n workflows — lead intake, SLA monitor, daily briefing, inventory threshold, error intake — idempotent, correlated, and calling the API, never the database |
 | **Trust** | Tenant isolation · role permissions · human approval on consequential actions · audit log · database-enforced balanced ledger |
 | **Interface** | Arabic-first (RTL) and English · light and dark · command palette · approvals inbox · Copilot |
-| **Quality** | 164 backend tests and 78 browser acceptance tests, run locally |
+| **Quality** | Automated backend and browser acceptance test suites, run locally |
 
 **Stack** &nbsp; Next.js · TypeScript · FastAPI · Python · PostgreSQL · n8n · Docker
 
