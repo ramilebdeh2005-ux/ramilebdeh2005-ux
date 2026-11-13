@@ -67,45 +67,6 @@ End-to-end applications that put AI inside a real workflow — with the backend,
 
 ## Featured projects
 
-<img src="assets/darb.svg" width="100%" alt="DARB — Autonomous Business Intelligence Platform. Flagship AI / data intelligence project, private case study. Workflow: business question → context / data → planning → SQL + analysis → hypotheses → validation → verification → business answer.">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**The problem**<br>
-Dashboards show *what* changed. Finding out *why* still takes an analyst, a query editor, and hours of back-and-forth — and the answer rarely shows its evidence.
-
-</td>
-<td width="50%" valign="top">
-
-**What I built**<br>
-Designed and built DARB: an investigation workflow that plans, queries the data read-only, tests candidate causes, and answers with the queries and results behind every figure.
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>Capabilities &amp; architecture</b></summary>
-<br>
-
-| Layer | What it does |
-|---|---|
-| **Investigation** | Business-question investigation · planning · multi-agent orchestration · hypothesis management |
-| **Analysis** | SQL generation · data-quality analysis · statistical analysis · visualization · reporting |
-| **Trust** | Evidence grounding · validation · verification — any figure no query result supports is flagged as unverified |
-| **Operations** | Scheduled metric monitoring that can start an investigation on its own · organization-scoped access · audit trail |
-| **Interface** | Arabic and English, Arabic-first RTL |
-
-**Stack** &nbsp; Python · FastAPI · SQL · DuckDB · PostgreSQL · RAG · Claude / OpenAI · Next.js · TypeScript
-
-</details>
-
-<p align="right"><sub><b>PRIVATE PROJECT</b> — the case study above is the public layer.</sub></p>
-
-<br>
-
 <img src="assets/apex.svg" width="100%" alt="APEX — Autonomous Process & Enterprise X-Framework. Flagship multi-agent decision intelligence platform, completed. Decision request → CEO executive orchestrator → specialized executive agents (CFO, CMO, CRO, CLO, CHRO, CTO), organizational memory (CDO) and governance (BRD) → evidence / claims → QA verification → decision intelligence → human decision maker.">
 
 **APEX is a completed enterprise-grade multi-agent decision intelligence platform I designed and built to orchestrate specialized AI executives, retrieve organizational knowledge, validate evidence, apply governance controls, and produce structured, auditable decisions.**
@@ -168,6 +129,45 @@ Taken through final hardening and verification as a completed system.
 </details>
 
 <p align="right"><sub><b>STATUS: COMPLETED</b> &nbsp;·&nbsp; PRIVATE — ARCHITECTURE CASE STUDY</sub></p>
+
+<br>
+
+<img src="assets/darb.svg" width="100%" alt="DARB — Autonomous Business Intelligence Platform. Flagship AI / data intelligence project, private case study. Workflow: business question → context / data → planning → SQL + analysis → hypotheses → validation → verification → business answer.">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**The problem**<br>
+Dashboards show *what* changed. Finding out *why* still takes an analyst, a query editor, and hours of back-and-forth — and the answer rarely shows its evidence.
+
+</td>
+<td width="50%" valign="top">
+
+**What I built**<br>
+Designed and built DARB: an investigation workflow that plans, queries the data read-only, tests candidate causes, and answers with the queries and results behind every figure.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Capabilities &amp; architecture</b></summary>
+<br>
+
+| Layer | What it does |
+|---|---|
+| **Investigation** | Business-question investigation · planning · multi-agent orchestration · hypothesis management |
+| **Analysis** | SQL generation · data-quality analysis · statistical analysis · visualization · reporting |
+| **Trust** | Evidence grounding · validation · verification — any figure no query result supports is flagged as unverified |
+| **Operations** | Scheduled metric monitoring that can start an investigation on its own · organization-scoped access · audit trail |
+| **Interface** | Arabic and English, Arabic-first RTL |
+
+**Stack** &nbsp; Python · FastAPI · SQL · DuckDB · PostgreSQL · RAG · Claude / OpenAI · Next.js · TypeScript
+
+</details>
+
+<p align="right"><sub><b>PRIVATE PROJECT</b> — the case study above is the public layer.</sub></p>
 
 <br>
 
@@ -265,6 +265,44 @@ Designed and built end-to-end: a WhatsApp agent that books against real availabi
 </details>
 
 <p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · LangGraph · Claude · PostgreSQL · pgvector · WhatsApp Cloud API · Next.js · TypeScript</sub></p>
+
+<br>
+
+<img src="assets/talentflow.svg" width="100%" alt="TalentFlow AI — AI-Assisted HR Platform. AI product / HR automation, private case study. Recruitment, employee lifecycle and an HR policy assistant feed an n8n event backbone; consequential decisions pass a human decision gate. Evidence, not scores: candidates get a quoted evidence matrix, never an automated rank.">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**The problem**<br>
+HR teams juggle hiring, onboarding, leave, and policy questions across disconnected tools — and AI that ranks candidates or decides on its own is a liability, not a help.
+
+</td>
+<td width="50%" valign="top">
+
+**What I built**<br>
+Designed and built end to end: recruitment from requisition to accepted offer, the full employee lifecycle, a policy assistant that answers from approved policies with citations — or abstains — and n8n workflows that react to platform events. Every consequential decision stays with an authorized person.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Modules &amp; platform</b></summary>
+<br>
+
+| Layer | What it does |
+|---|---|
+| **Recruitment** | Requisitions with separation-of-duties approval · CV intake · evidence matrix with quoted spans (no scores or ranks) · interviews with blind feedback · approved offers that convert to one employee |
+| **Employee lifecycle** | Onboarding with task dependencies · leave ledger · attendance corrections · training · performance · payroll drafts · offboarding with legal hold |
+| **Knowledge** | Approved-policy search with citations or abstention, in English and Arabic, with access levels and versioning |
+| **AI layer** | Drafting behind a provider adapter — schema-validated outputs, bounded retries, prompt-injection tests |
+| **Automation** | Event-driven n8n workflows fed by a transactional outbox, with safe reprocessing |
+| **Platform** | Multi-tenant isolation · RBAC · append-only audit log · Arabic-first RTL interface, light / dark |
+
+</details>
+
+<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · PostgreSQL · n8n · Next.js · TypeScript · Docker</sub></p>
 
 <br>
 
