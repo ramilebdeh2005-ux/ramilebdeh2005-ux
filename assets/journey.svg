@@ -1,17 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
-  <title id="t">From data to intelligence to autonomy</title>
-  <desc id="d">Bellabeat: data analysis. DARB: data intelligence and AI agents. APEX: decision intelligence and multi-agent systems. SHIFAA: applied AI product. EnterpriseFlow AI: governed AI inside business operations.</desc>
+  <title id="t">From data to intelligence to autonomy to operations</title>
+  <desc id="d">Bellabeat: data analysis. DARB: data intelligence and AI agents. APEX: decision intelligence and multi-agent systems. SHIFAA: applied AI product. EnterpriseFlow AI: governed business operations. TalentFlow AI: human-centred HR automation.</desc>
   <defs>
-    <linearGradient id="line" x1="150" x2="1050" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#60A5FA"/><stop offset=".25" stop-color="#22D3EE"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset=".75" stop-color="#14B8A6"/><stop offset="1" stop-color="#F4B942"/>
-    </linearGradient>
-    <linearGradient id="head" x1="0" x2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+    <linearGradient id="line" x1="120" x2="1080" gradientUnits="userSpaceOnUse"><stop offset="0.00" stop-color="#60A5FA"/><stop offset="0.20" stop-color="#22D3EE"/><stop offset="0.40" stop-color="#8B5CF6"/><stop offset="0.60" stop-color="#14B8A6"/><stop offset="0.80" stop-color="#F4B942"/><stop offset="1.00" stop-color="#FB7185"/></linearGradient>
+    <linearGradient id="head" x1="0" x2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
     <clipPath id="c"><rect width="1200" height="300" rx="20"/></clipPath>
     <style>
       .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
-      .lbl{fill:#F1F5F9;font-weight:700}
-      .sub{fill:#64748B;font-size:13px}
       .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
       .glow{opacity:0;animation:gl8 8s linear infinite}@keyframes gl8{0%{opacity:0}3%{opacity:1}14%{opacity:0}100%{opacity:0}}
       @keyframes f{to{stroke-dashoffset:-48}}
@@ -23,44 +19,49 @@
 
   <text class="mono" x="600" y="56" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="4" fill="url(#head)">FROM DATA  →  TO INTELLIGENCE  →  TO AUTONOMY  →  TO OPERATIONS</text>
 
-  <line x1="150" y1="150" x2="1050" y2="150" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
-  <line class="flow" x1="150" y1="150" x2="1050" y2="150" stroke="url(#line)" stroke-width="2.5"/>
+  <line x1="120" y1="150" x2="1080" y2="150" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+  <line class="flow" x1="120" y1="150" x2="1080" y2="150" stroke="url(#line)" stroke-width="2.5"/>
 
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.78;0.80;1" dur="8s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.78;0.80;1" dur="8s" repeatCount="indefinite"/>
     <circle r="10.5" fill="#E0F2FE" fill-opacity=".18"/><circle r="3.5" fill="#E0F2FE"/>
-    <animateMotion path="M150 150 H1050" keyPoints="0;1;1" keyTimes="0;0.80;1" calcMode="linear" dur="8s" begin="0s" repeatCount="indefinite"/>
+    <animateMotion path="M120 150 H1080" keyPoints="0;1;1" keyTimes="0;0.80;1" calcMode="linear" dur="8s" repeatCount="indefinite"/>
   </g>
-  <circle class="glow" style="animation-delay:-0.10s" cx="150" cy="150" r="24" fill="none" stroke="#60A5FA" stroke-width="2"/>
-  <circle class="glow" style="animation-delay:1.50s" cx="375" cy="150" r="24" fill="none" stroke="#22D3EE" stroke-width="2"/>
-  <circle class="glow" style="animation-delay:3.10s" cx="600" cy="150" r="24" fill="none" stroke="#8B5CF6" stroke-width="2"/>
-  <circle class="glow" style="animation-delay:4.70s" cx="825" cy="150" r="24" fill="none" stroke="#14B8A6" stroke-width="2"/>
-  <circle class="glow" style="animation-delay:6.29s" cx="1050" cy="150" r="24" fill="none" stroke="#F4B942" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:-0.10s" cx="120" cy="150" r="24" fill="none" stroke="#60A5FA" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:1.18s" cx="312" cy="150" r="24" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:2.46s" cx="504" cy="150" r="24" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:3.74s" cx="696" cy="150" r="24" fill="none" stroke="#14B8A6" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:5.02s" cx="888" cy="150" r="24" fill="none" stroke="#F4B942" stroke-width="2"/>
+  <circle class="glow" style="animation-delay:6.30s" cx="1080" cy="150" r="24" fill="none" stroke="#FB7185" stroke-width="2"/>
 
   <g class="mono" font-size="12" letter-spacing="2.5" text-anchor="middle">
-    <text x="150" y="118" fill="#60A5FA">01 · ANALYZE</text>
-    <text x="375" y="118" fill="#22D3EE">02 · INVESTIGATE</text>
-    <text x="600" y="118" fill="#A78BFA">03 · DECIDE</text>
-    <text x="825" y="118" fill="#2DD4BF">04 · ACT</text>
-    <text x="1050" y="118" fill="#F4B942">05 · OPERATE</text>
+    <text x="120" y="118" fill="#60A5FA">01 · ANALYZE</text>
+    <text x="312" y="118" fill="#22D3EE">02 · INVESTIGATE</text>
+    <text x="504" y="118" fill="#A78BFA">03 · DECIDE</text>
+    <text x="696" y="118" fill="#2DD4BF">04 · ACT</text>
+    <text x="888" y="118" fill="#F4B942">05 · OPERATE</text>
+    <text x="1080" y="118" fill="#FB7185">06 · PEOPLE</text>
   </g>
-  <circle cx="150" cy="150" r="17" fill="#60A5FA" fill-opacity=".15"/><circle cx="150" cy="150" r="8" fill="#60A5FA"/>
-  <circle cx="375" cy="150" r="17" fill="#22D3EE" fill-opacity=".15"/><circle cx="375" cy="150" r="8" fill="#22D3EE"/>
-  <circle cx="600" cy="150" r="17" fill="#8B5CF6" fill-opacity=".15"/><circle cx="600" cy="150" r="8" fill="#8B5CF6"/>
-  <circle cx="825" cy="150" r="17" fill="#14B8A6" fill-opacity=".15"/><circle cx="825" cy="150" r="8" fill="#14B8A6"/>
-  <circle cx="1050" cy="150" r="17" fill="#F4B942" fill-opacity=".15"/><circle cx="1050" cy="150" r="8" fill="#F4B942"/>
+  <circle cx="120" cy="150" r="17" fill="#60A5FA" fill-opacity=".15"/><circle cx="120" cy="150" r="8" fill="#60A5FA"/>
+  <circle cx="312" cy="150" r="17" fill="#22D3EE" fill-opacity=".15"/><circle cx="312" cy="150" r="8" fill="#22D3EE"/>
+  <circle cx="504" cy="150" r="17" fill="#8B5CF6" fill-opacity=".15"/><circle cx="504" cy="150" r="8" fill="#8B5CF6"/>
+  <circle cx="696" cy="150" r="17" fill="#14B8A6" fill-opacity=".15"/><circle cx="696" cy="150" r="8" fill="#14B8A6"/>
+  <circle cx="888" cy="150" r="17" fill="#F4B942" fill-opacity=".15"/><circle cx="888" cy="150" r="8" fill="#F4B942"/>
+  <circle cx="1080" cy="150" r="17" fill="#FB7185" fill-opacity=".15"/><circle cx="1080" cy="150" r="8" fill="#FB7185"/>
 
   <g class="sans" text-anchor="middle">
-    <text x="150" y="204" font-size="22" font-weight="800" fill="#F1F5F9">Bellabeat</text>
-    <text x="150" y="230" font-size="13" fill="#94A3B8">data analysis &amp; BI</text>
-    <text x="375" y="204" font-size="22" font-weight="800" fill="#F1F5F9">DARB</text>
-    <text x="375" y="230" font-size="13" fill="#94A3B8">data intelligence + agents</text>
-    <text x="600" y="204" font-size="22" font-weight="800" fill="#F1F5F9">APEX</text>
-    <text x="600" y="230" font-size="13" fill="#94A3B8">decision intelligence</text>
-    <text x="825" y="204" font-size="22" font-weight="800" fill="#F1F5F9">SHIFAA</text>
-    <text x="825" y="230" font-size="13" fill="#94A3B8">applied AI product</text>
-    <text x="1050" y="204" font-size="22" font-weight="800" fill="#F1F5F9">EnterpriseFlow AI</text>
-    <text x="1050" y="230" font-size="13" fill="#94A3B8">governed business operations</text>
+    <text x="120" y="204" font-size="20" font-weight="800" fill="#F1F5F9">Bellabeat</text>
+    <text x="120" y="229" font-size="12" fill="#94A3B8">data analysis &amp; BI</text>
+    <text x="312" y="204" font-size="20" font-weight="800" fill="#F1F5F9">DARB</text>
+    <text x="312" y="229" font-size="12" fill="#94A3B8">data intelligence + agents</text>
+    <text x="504" y="204" font-size="20" font-weight="800" fill="#F1F5F9">APEX</text>
+    <text x="504" y="229" font-size="12" fill="#94A3B8">decision intelligence</text>
+    <text x="696" y="204" font-size="20" font-weight="800" fill="#F1F5F9">SHIFAA</text>
+    <text x="696" y="229" font-size="12" fill="#94A3B8">applied AI product</text>
+    <text x="888" y="204" font-size="20" font-weight="800" fill="#F1F5F9">EnterpriseFlow AI</text>
+    <text x="888" y="229" font-size="12" fill="#94A3B8">governed business operations</text>
+    <text x="1080" y="204" font-size="20" font-weight="800" fill="#F1F5F9">TalentFlow AI</text>
+    <text x="1080" y="229" font-size="12" fill="#94A3B8">human-centred HR automation</text>
   </g>
   <text class="mono" x="600" y="274" text-anchor="middle" font-size="12" letter-spacing="2" fill="#475569">ONE DIRECTION · BUILDING INTELLIGENT SYSTEMS</text>
 </svg>

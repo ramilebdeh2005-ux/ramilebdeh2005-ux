@@ -2,21 +2,21 @@
   <title id="t">TalentFlow AI — AI-Assisted HR Platform</title>
   <desc id="d">AI product and HR automation, private case study. Recruitment, employee lifecycle and an HR policy assistant publish events to an n8n event backbone; consequential decisions such as reject, hire, offer, leave and payroll pass a human decision gate.</desc>
   <defs>
-    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
-    <radialGradient id="glowA" cx="0%" cy="0%" r="70%"><stop offset="0" stop-color="#FBBF24" stop-opacity=".12"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#FB7185"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <radialGradient id="glowA" cx="0%" cy="0%" r="70%"><stop offset="0" stop-color="#FB7185" stop-opacity=".12"/><stop offset="1" stop-color="#FB7185" stop-opacity="0"/></radialGradient>
     <radialGradient id="glowB" cx="100%" cy="100%" r="65%"><stop offset="0" stop-color="#F472B6" stop-opacity=".12"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
-    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#B45309" stop-opacity=".35"/><stop offset="1" stop-color="#BE185D" stop-opacity=".38"/></linearGradient>
-    <linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="1" stop-color="#FBCFE8"/></linearGradient>
-    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#FBBF24"/></marker>
+    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#BE123C" stop-opacity=".35"/><stop offset="1" stop-color="#BE185D" stop-opacity=".38"/></linearGradient>
+    <linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#FFE4E6"/><stop offset="1" stop-color="#FBCFE8"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#FB7185"/></marker>
     <clipPath id="c"><rect width="1200" height="670" rx="20"/></clipPath>
     <style>
       .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace}
       .box{fill:#120E14;stroke:#3F2A2E;stroke-width:1.2}
-      .cap{fill:#FBBF24;font-size:12px;letter-spacing:2.5px}
+      .cap{fill:#FB7185;font-size:12px;letter-spacing:2.5px}
       .lbl{fill:#F8FAFC;font-weight:800;letter-spacing:.5px}
       .sub{fill:#8B8193;font-size:13px}
-      .wire{stroke:#FBBF24;stroke-width:1.6;fill:none;stroke-opacity:.7}
+      .wire{stroke:#FB7185;stroke-width:1.6;fill:none;stroke-opacity:.7}
       .flow{stroke-dasharray:5 7;animation:f 3s linear infinite}
       .glow{opacity:0;animation:gl 9s linear infinite}
       @keyframes gl{0%{opacity:0}3%{opacity:1}12%{opacity:0}100%{opacity:0}}
@@ -33,8 +33,8 @@
   <rect x=".5" y=".5" width="1199" height="669" rx="20" fill="none" stroke="#2A1F26"/>
 
   <g class="mono" font-size="13" letter-spacing="2.5">
-    <rect x="48" y="38" width="380" height="32" rx="16" fill="#2A1A0E" stroke="#92400E"/>
-    <text x="238" y="59" text-anchor="middle" fill="#FCD34D">AI PRODUCT · HR AUTOMATION</text>
+    <rect x="48" y="38" width="380" height="32" rx="16" fill="#2A0F18" stroke="#9F1239"/>
+    <text x="238" y="59" text-anchor="middle" fill="#FDA4AF">AI PRODUCT · HR AUTOMATION</text>
     <rect x="904" y="38" width="248" height="32" rx="16" fill="#15101A" stroke="#3F2A2E"/>
     <g transform="translate(926 46)" fill="none" stroke="#A8A0B0" stroke-width="1.6"><rect x="0" y="6" width="12" height="9" rx="2"/><path d="M3 6 V3.5 a3 3 0 0 1 6 0 V6"/></g>
     <text x="1046" y="59" text-anchor="middle" fill="#A8A0B0">PRIVATE · CASE STUDY</text>
@@ -46,22 +46,22 @@
 
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.1;0.34;0.36;1" dur="9s" repeatCount="indefinite"/>
-    <circle r="12" fill="#FBBF24" fill-opacity=".2"/><circle r="4" fill="#FDE68A"/>
+    <circle r="12" fill="#FB7185" fill-opacity=".2"/><circle r="4" fill="#FFE4E6"/>
     <animateMotion path="M224 380 V436 H370 V490" keyPoints="0;0;1;1" keyTimes="0;0.08;0.36;1" calcMode="linear" dur="9s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.1;0.34;0.36;1" dur="9s" repeatCount="indefinite"/>
-    <circle r="12" fill="#FBBF24" fill-opacity=".2"/><circle r="4" fill="#FDE68A"/>
+    <circle r="12" fill="#FB7185" fill-opacity=".2"/><circle r="4" fill="#FFE4E6"/>
     <animateMotion path="M600 380 V436 H370 V490" keyPoints="0;0;1;1" keyTimes="0;0.08;0.36;1" calcMode="linear" dur="9s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.1;0.34;0.36;1" dur="9s" repeatCount="indefinite"/>
-    <circle r="12" fill="#FBBF24" fill-opacity=".2"/><circle r="4" fill="#FDE68A"/>
+    <circle r="12" fill="#FB7185" fill-opacity=".2"/><circle r="4" fill="#FFE4E6"/>
     <animateMotion path="M976 380 V436 H370 V490" keyPoints="0;0;1;1" keyTimes="0;0.08;0.36;1" calcMode="linear" dur="9s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42;0.44;0.56;0.58;1" dur="9s" repeatCount="indefinite"/>
-    <circle r="12" fill="#FBBF24" fill-opacity=".2"/><circle r="4" fill="#FDE68A"/>
+    <circle r="12" fill="#FB7185" fill-opacity=".2"/><circle r="4" fill="#FFE4E6"/>
     <animateMotion path="M520 499 H880" keyPoints="0;0;1;1" keyTimes="0;0.42;0.58;1" calcMode="linear" dur="9s" repeatCount="indefinite"/>
   </g>
 
@@ -99,14 +99,14 @@
   </g>
   <path class="wire flow" d="M522 499 H626" marker-end="url(#ar)"/>
 
-  <rect class="glow" style="animation-delay:0.20s" x="48" y="262" width="352" height="150" rx="14" fill="none" stroke="#FBBF24" stroke-width="2.2"/>
-  <rect class="glow" style="animation-delay:0.35s" x="424" y="262" width="352" height="150" rx="14" fill="none" stroke="#FBBF24" stroke-width="2.2"/>
-  <rect class="glow" style="animation-delay:0.50s" x="800" y="262" width="352" height="150" rx="14" fill="none" stroke="#FBBF24" stroke-width="2.2"/>
-  <rect class="glow" style="animation-delay:3.2s" x="170" y="464" width="350" height="70" rx="12" fill="none" stroke="#FBBF24" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:0.20s" x="48" y="262" width="352" height="150" rx="14" fill="none" stroke="#FB7185" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:0.35s" x="424" y="262" width="352" height="150" rx="14" fill="none" stroke="#FB7185" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:0.50s" x="800" y="262" width="352" height="150" rx="14" fill="none" stroke="#FB7185" stroke-width="2.2"/>
+  <rect class="glow" style="animation-delay:3.2s" x="170" y="464" width="350" height="70" rx="12" fill="none" stroke="#FB7185" stroke-width="2.2"/>
   <rect class="glow" style="animation-delay:5.2s" x="630" y="464" width="400" height="70" rx="12" fill="none" stroke="#F472B6" stroke-width="2.4"/>
 
-  <rect x="48" y="558" width="1104" height="46" rx="10" fill="#160F0C" stroke="#78350F" stroke-dasharray="4 4"/>
-  <text class="mono" x="70" y="587" font-size="12" letter-spacing="2.5" fill="#FBBF24">PRINCIPLE</text>
+  <rect x="48" y="558" width="1104" height="46" rx="10" fill="#1A0C10" stroke="#881337" stroke-dasharray="4 4"/>
+  <text class="mono" x="70" y="587" font-size="12" letter-spacing="2.5" fill="#FB7185">PRINCIPLE</text>
   <text class="sans" x="180" y="587" font-size="15" fill="#E2D9E6">Evidence, not scores: candidates get a quoted evidence matrix — never an automated rank.</text>
 
   <line x1="48" y1="618" x2="1152" y2="618" stroke="#2A1F26"/>

@@ -167,7 +167,7 @@ Designed and built DARB: an investigation workflow that plans, queries the data 
 
 </details>
 
-<p align="right"><sub><b>PRIVATE PROJECT</b> — the case study above is the public layer.</sub></p>
+<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · SQL · DuckDB · PostgreSQL · Next.js · TypeScript</sub></p>
 
 <br>
 
@@ -240,7 +240,7 @@ Clinic teams lose their day to routine WhatsApp messages, calendar changes, and 
 <td width="50%" valign="top">
 
 **What I built**<br>
-Designed and built end-to-end: a WhatsApp agent that books against real availability, answers from the clinic's own documents, sends reminders, offers freed slots to a waitlist, and hands anything clinical or uncertain to staff — plus the staff dashboard and copilot.
+Designed and built end to end: a WhatsApp agent that books against real availability, answers from the clinic's own documents, sends reminders, offers freed slots to a waitlist, and hands anything clinical or uncertain to staff — plus the staff dashboard and copilot.
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ Designed and built end to end: recruitment from requisition to accepted offer, t
 </table>
 
 <details>
-<summary><b>Modules &amp; platform</b></summary>
+<summary><b>Capabilities &amp; architecture</b></summary>
 <br>
 
 | Layer | What it does |
@@ -300,9 +300,11 @@ Designed and built end to end: recruitment from requisition to accepted offer, t
 | **Automation** | Event-driven n8n workflows fed by a transactional outbox, with safe reprocessing |
 | **Platform** | Multi-tenant isolation · RBAC · append-only audit log · Arabic-first RTL interface, light / dark |
 
+**Stack** &nbsp; Python · FastAPI · PostgreSQL · n8n · Next.js · TypeScript · Docker
+
 </details>
 
-<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; Python · FastAPI · PostgreSQL · n8n · Next.js · TypeScript · Docker</sub></p>
+<p align="right"><sub><b>PRIVATE PROJECT</b> &nbsp;·&nbsp; PORTFOLIO RELEASE &nbsp;·&nbsp; Python · FastAPI · PostgreSQL · n8n · Next.js · TypeScript</sub></p>
 
 <br>
 
@@ -316,7 +318,7 @@ Analysis of Fitbit activity and sleep data to support Bellabeat's marketing stra
 
 ## The thread
 
-<img src="assets/journey.svg" width="100%" alt="From data to intelligence to autonomy: Bellabeat (data analysis) → DARB (data intelligence + AI agents) → APEX (decision intelligence + multi-agent) → SHIFAA (applied AI product) → EnterpriseFlow AI (governed business operations).">
+<img src="assets/journey.svg" width="100%" alt="From data to intelligence to autonomy: Bellabeat (data analysis) → DARB (data intelligence + AI agents) → APEX (decision intelligence + multi-agent) → SHIFAA (applied AI product) → EnterpriseFlow AI (governed business operations) → TalentFlow AI (human-centred HR automation).">
 
 <p align="center"><sub>Different problems, one direction: turning data and AI agents into systems people can actually rely on.</sub></p>
 
